@@ -1,3 +1,0 @@
-C:/Users/Tihohod/Desktop/Работа/Cplus/test-repo/cmake-build-debug/CMakeFiles/testproj.dir
-C:/Users/Tihohod/Desktop/Работа/Cplus/test-repo/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Tihohod/Desktop/Работа/Cplus/test-repo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
