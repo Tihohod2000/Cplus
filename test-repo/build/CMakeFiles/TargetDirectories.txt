@@ -1,0 +1,3 @@
+C:/Users/Tihohod/Desktop/Работа/Cplus/test-repo/build/CMakeFiles/testproj.dir
+C:/Users/Tihohod/Desktop/Работа/Cplus/test-repo/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Tihohod/Desktop/Работа/Cplus/test-repo/build/CMakeFiles/ZERO_CHECK.dir
