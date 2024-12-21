@@ -6,7 +6,7 @@
 //массив всех тестов, который мы заполняем в функции initTests
 static std::vector<std::function<bool()>> tests;
 
-
+//2.1
 // Тест 1: Проверка попадания цены внутри тела зеленой свечи
 bool test1() {
   Candle candle(100.0, 120.0, 90.0, 110.0); // Зеленая свеча (close > open)
@@ -24,30 +24,38 @@ bool test3() {
   Candle candle(100.0, 120.0, 90.0, 110.0); // Зеленая свеча
   return !candle.body_contains(95.0) && !candle.body_contains(115.0); // Ожидается false для обеих цен
 }
+//2.2
+//тест 4
+bool test4()
+{
+  //цена внутри диапазона свечи
+  Candle candle(100.0, 120.0, 90.0, 110.0);
+  return candle.contains(101.0); //Ожидается true
+}
 
-//тест 2
+//тест 5
 bool test5()
 {
-  //пример какого-то теста
-  return 42 != (41 + 1); //failed
+  Candle candle(100.0, 120.0, 90.0, 110.0); // Любая свеча
+  return candle.contains(90.0) && candle.contains(120.0); // Ожидается true для обеих границ
 }
 
-//тест 3
+//тест 6
 bool test6()
 {
-  Candle candle{ 0.0, 3.0, 3.0, 3.0 };
-
-  //пример какого-то теста
-  return candle.high == 3.0;
+  Candle candle(100.0, 120.0, 90.0, 110.0); // Любая свеча
+  return !candle.contains(80.0) && !candle.contains(130.0); // Ожидается false для цен ниже low и выше high
 }
+
 
 void initTests()
 {
   tests.push_back(test1);
   tests.push_back(test2);
   tests.push_back(test3);
-  //tests.push_back(test4);
-  //tests.push_back(test5);
+  tests.push_back(test4);
+  tests.push_back(test5);
+  tests.push_back(test6);
 }
 
 int launchTests()
