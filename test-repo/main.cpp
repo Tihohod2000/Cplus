@@ -47,6 +47,25 @@ bool test6()
   return !candle.contains(80.0) && !candle.contains(130.0); // Ожидается false для цен ниже low и выше high
 }
 
+//2.3
+//тест 7
+bool test7() {
+  Candle candle(100.0, 120.0, 90.0, 110.0); // Любая свеча
+  return candle.full_size() == 30.0; // Ожидается 120.0 - 90.0 = 30.0
+}
+
+//тест 8
+bool test8() {
+  Candle candle(100.0, 120.0, 120.0, 110.0); // Любая свеча
+  return candle.full_size() == 0.0; // Ожидается 120.0 - 120.0 = 0.0
+}
+
+//тест 9
+bool test9() {
+  Candle candle(100.0, 100.0, 120.0, 110.0); // Любая свеча
+  return candle.full_size() == 20.0; // Ожидается 100.0 - 120.0 = 20.0
+}
+
 
 void initTests()
 {
@@ -56,6 +75,9 @@ void initTests()
   tests.push_back(test4);
   tests.push_back(test5);
   tests.push_back(test6);
+  tests.push_back(test7);
+  tests.push_back(test8);
+  tests.push_back(test9);
 }
 
 int launchTests()
