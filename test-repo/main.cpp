@@ -6,22 +6,34 @@
 //массив всех тестов, который мы заполняем в функции initTests
 static std::vector<std::function<bool()>> tests;
 
-//тест 1
-bool test1()
-{
-  //пример какого-то теста
-  return 42 == (41 + 1); //passed
+
+// Тест 1: Проверка попадания цены внутри тела зеленой свечи
+bool test1() {
+  Candle candle(100.0, 120.0, 90.0, 110.0); // Зеленая свеча (close > open)
+  return candle.body_contains(105.0); // Ожидается true
+}
+
+// Тест 2: Проверка попадания цены на границы тела красной свечи
+bool test2() {
+  Candle candle(110.0, 120.0, 90.0, 100.0); // Красная свеча (open > close)
+  return candle.body_contains(110.0) && candle.body_contains(100.0); // Ожидается true для обеих границ
+}
+
+// Тест 3: Проверка цены вне тела свечи
+bool test3() {
+  Candle candle(100.0, 120.0, 90.0, 110.0); // Зеленая свеча
+  return !candle.body_contains(95.0) && !candle.body_contains(115.0); // Ожидается false для обеих цен
 }
 
 //тест 2
-bool test2()
+bool test5()
 {
   //пример какого-то теста
   return 42 != (41 + 1); //failed
 }
 
 //тест 3
-bool test3()
+bool test6()
 {
   Candle candle{ 0.0, 3.0, 3.0, 3.0 };
 
