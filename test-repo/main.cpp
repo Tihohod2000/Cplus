@@ -67,6 +67,26 @@ bool test9() {
 }
 
 
+//2.4
+//тест 10
+bool test10() {
+  Candle candle(100.0, 100.0, 120.0, 110.0); // Зеленая свеча (close > open)
+  return candle.body_size() == 10.0; // Ожидается 110.0 - 100.0 = 10.0
+}
+
+//тест 11
+bool test11() {
+  Candle candle(100.0, 100.0, 120.0, 100.0); // Свеча с одинаковыми open и close
+  return candle.body_size() == 0.0; // Ожидается 100.0 - 100.0 = 0.0
+}
+
+//тест 12
+bool test12() {
+  Candle candle(110.0, 100.0, 120.0, 100.0); // Красная свеча (open > close)
+  return candle.body_size() == 10.0; // Ожидается 110.0 - 100.0 = 10.0
+}
+
+
 void initTests()
 {
   tests.push_back(test1);
@@ -78,6 +98,9 @@ void initTests()
   tests.push_back(test7);
   tests.push_back(test8);
   tests.push_back(test9);
+  tests.push_back(test10);
+  tests.push_back(test11);
+  tests.push_back(test12);
 }
 
 int launchTests()
