@@ -4,6 +4,9 @@
     <ClCompile Include="C:\Users\Tihohod\Desktop\Работа\Cplus\test-repo\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Tihohod\Desktop\Работа\Cplus\test-repo\candle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Tihohod\Desktop\Работа\Cplus\test-repo\CMakeLists.txt" />

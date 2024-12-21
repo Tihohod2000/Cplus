@@ -1,0 +1,10 @@
+^C:\USERS\TIHOHOD\DESKTOP\РАБОТА\CPLUS\TEST-REPO\BUILD\CMAKEFILES\6C903B16CF8E8757090234D9A2BF8C46\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Tihohod/Desktop/Работа/Cplus/test-repo -BC:/Users/Tihohod/Desktop/Работа/Cplus/test-repo/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Tihohod/Desktop/Работа/Cplus/test-repo/build/testproj.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

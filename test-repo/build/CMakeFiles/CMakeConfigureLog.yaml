@@ -26,7 +26,7 @@ events:
       Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
       (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
       
-      Сборка начата 21.12.2024 15:52:34.
+      Сборка начата 21.12.2024 17:44:11.
       Проект "C:\\Users\\Tihohod\\Desktop\\Работа\\Cplus\\test-repo\\build\\CMakeFiles\\3.31.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
       PrepareForBuild:
         Создание каталога "Debug\\".
@@ -52,7 +52,7 @@ events:
           Предупреждений: 0
           Ошибок: 0
       
-      Прошло времени 00:00:00.99
+      Прошло времени 00:00:00.73
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -71,8 +71,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Tihohod/Desktop/\u0420\u0430\u0431\u043e\u0442\u0430/Cplus/test-repo/build/CMakeFiles/CMakeScratch/TryCompile-zyl1ns"
-      binary: "C:/Users/Tihohod/Desktop/\u0420\u0430\u0431\u043e\u0442\u0430/Cplus/test-repo/build/CMakeFiles/CMakeScratch/TryCompile-zyl1ns"
+      source: "C:/Users/Tihohod/Desktop/\u0420\u0430\u0431\u043e\u0442\u0430/Cplus/test-repo/build/CMakeFiles/CMakeScratch/TryCompile-3o8la8"
+      binary: "C:/Users/Tihohod/Desktop/\u0420\u0430\u0431\u043e\u0442\u0430/Cplus/test-repo/build/CMakeFiles/CMakeScratch/TryCompile-3o8la8"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -82,39 +82,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Tihohod/Desktop/Работа/Cplus/test-repo/build/CMakeFiles/CMakeScratch/TryCompile-zyl1ns'
+        Change Dir: 'C:/Users/Tihohod/Desktop/Работа/Cplus/test-repo/build/CMakeFiles/CMakeScratch/TryCompile-3o8la8'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_f6f43.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_e12b4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
         (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
         
-        Сборка начата 21.12.2024 15:52:35.
-        Проект "C:\\Users\\Tihohod\\Desktop\\Работа\\Cplus\\test-repo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zyl1ns\\cmTC_f6f43.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Сборка начата 21.12.2024 17:44:12.
+        Проект "C:\\Users\\Tihohod\\Desktop\\Работа\\Cplus\\test-repo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3o8la8\\cmTC_e12b4.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_f6f43.dir\\Debug\\".
-          Создание каталога "C:\\Users\\Tihohod\\Desktop\\Работа\\Cplus\\test-repo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zyl1ns\\Debug\\".
-          Создание каталога "cmTC_f6f43.dir\\Debug\\cmTC_f6f43.tlog\\".
+          Создание каталога "cmTC_e12b4.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Tihohod\\Desktop\\Работа\\Cplus\\test-repo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3o8la8\\Debug\\".
+          Создание каталога "cmTC_e12b4.dir\\Debug\\cmTC_e12b4.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_f6f43.dir\\Debug\\cmTC_f6f43.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Создание "cmTC_e12b4.dir\\Debug\\cmTC_e12b4.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f6f43.dir\\Debug\\\\" /Fd"cmTC_f6f43.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e12b4.dir\\Debug\\\\" /Fd"cmTC_e12b4.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30154 для x64
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
           CMakeCXXCompilerABI.cpp
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f6f43.dir\\Debug\\\\" /Fd"cmTC_f6f43.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e12b4.dir\\Debug\\\\" /Fd"cmTC_e12b4.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Tihohod\\Desktop\\Работа\\Cplus\\test-repo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zyl1ns\\Debug\\cmTC_f6f43.exe" /INCREMENTAL /ILK:"cmTC_f6f43.dir\\Debug\\cmTC_f6f43.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Tihohod/Desktop/Работа/Cplus/test-repo/build/CMakeFiles/CMakeScratch/TryCompile-zyl1ns/Debug/cmTC_f6f43.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Tihohod/Desktop/Работа/Cplus/test-repo/build/CMakeFiles/CMakeScratch/TryCompile-zyl1ns/Debug/cmTC_f6f43.lib" /MACHINE:X64  /machine:x64 cmTC_f6f43.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_f6f43.vcxproj -> C:\\Users\\Tihohod\\Desktop\\Работа\\Cplus\\test-repo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zyl1ns\\Debug\\cmTC_f6f43.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Tihohod\\Desktop\\Работа\\Cplus\\test-repo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3o8la8\\Debug\\cmTC_e12b4.exe" /INCREMENTAL /ILK:"cmTC_e12b4.dir\\Debug\\cmTC_e12b4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Tihohod/Desktop/Работа/Cplus/test-repo/build/CMakeFiles/CMakeScratch/TryCompile-3o8la8/Debug/cmTC_e12b4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Tihohod/Desktop/Работа/Cplus/test-repo/build/CMakeFiles/CMakeScratch/TryCompile-3o8la8/Debug/cmTC_e12b4.lib" /MACHINE:X64  /machine:x64 cmTC_e12b4.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_e12b4.vcxproj -> C:\\Users\\Tihohod\\Desktop\\Работа\\Cplus\\test-repo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3o8la8\\Debug\\cmTC_e12b4.exe
         FinalizeBuildStatus:
-          Файл "cmTC_f6f43.dir\\Debug\\cmTC_f6f43.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_f6f43.dir\\Debug\\cmTC_f6f43.tlog\\cmTC_f6f43.lastbuildstate".
-        Сборка проекта "C:\\Users\\Tihohod\\Desktop\\Работа\\Cplus\\test-repo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zyl1ns\\cmTC_f6f43.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_e12b4.dir\\Debug\\cmTC_e12b4.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_e12b4.dir\\Debug\\cmTC_e12b4.tlog\\cmTC_e12b4.lastbuildstate".
+        Сборка проекта "C:\\Users\\Tihohod\\Desktop\\Работа\\Cplus\\test-repo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3o8la8\\cmTC_e12b4.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
             Ошибок: 0
         
-        Прошло времени 00:00:00.51
+        Прошло времени 00:00:00.48
         
       exitCode: 0
   -
